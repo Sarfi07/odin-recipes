@@ -2,11 +2,13 @@
 body {
     font-family: sans-serif;
     background-color: rgb(198, 212, 225);
+    margin: 28px;
 }
 
 h1 {
     text-align: center;
     text-decoration: underline;
+
 }
 
 ul > li > a {
@@ -30,5 +32,16 @@ ol > li > p {
 
 ul > li {
     margin: 5px;
+}
+
+.recipe_img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 40px;
+}
+
+.recipe_img > img {
+    display: block;
+    margin: 0 auto;
 }
 
